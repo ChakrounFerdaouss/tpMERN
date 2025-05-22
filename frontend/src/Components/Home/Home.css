@@ -1,0 +1,77 @@
+/* Home.css */
+
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .publication-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .publication-form input,
+  .publication-form textarea {
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .publication-form textarea {
+    resize: vertical;
+  }
+  
+  .publication-form button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .publication-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .publication-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .publication-item {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .publication-item p {
+    margin: 0.5rem 0;
+  }
+  
+  .publication-item p:first-child {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .publication-item p:nth-child(2) {
+    color: #007bff;
+  }
+  
