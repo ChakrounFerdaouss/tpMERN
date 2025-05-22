@@ -6,20 +6,34 @@ Une application web MERN (MongoDB, Express, React, Node.js) inspirée de **Le Bo
 
 ## 🗂️ Structure du projet
 
+```
 tpMERN/
-├── backend/ # API Express + MongoDB
-├── frontend/ # Interface React
+├── backend/   # API Express + MongoDB
+├── frontend/  # Interface React
 └── README.md
+```
+
+---
 
 ## ▶️ Lancer le projet
-- Lancer backend:
+
+**Lancer le backend :**
+
+```bash
 cd backend
 npm install
 node app.js
-- Lancer frontend:
+```
+
+**Lancer le frontend :**
+
+```bash
 cd ../frontend
 npm install
-npm start 
+npm start
+```
+
+---
 
 ## 📬 Fonctionnalités
 ✅ Inscription / Connexion utilisateur
